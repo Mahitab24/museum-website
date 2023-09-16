@@ -1,0 +1,146 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	font-family: astloch;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/ABDEEN%20PALACE.jpg), linear-gradient(180deg,rgba(12,11,11,1.00) 0%,rgba(144,144,168,1.00) 68.19%,rgba(3,3,3,1.00) 99.59%);
+	background-blend-mode: overlay;
+    opacity: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    -webkit-box-shadow: inset 0px 0px 0px rgba(28,27,27,1.00);
+    box-shadow: inset 0px 0px 0px rgba(28,27,27,1.00);
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-right: auto;
+    padding-left: auto;
+    padding-bottom: 5px;
+    top: 32px;
+    right: 30px;
+    margin-bottom: 91px;
+    margin-top: -8px;
+    -webkit-box-shadow: -1px 2px 0px -6px #060606;
+    box-shadow: -1px 2px 0px -6px #060606;
+    color: #ECE8E8;
+}
+.content small{
+    font-size: 30PX;
+    font-family: unifrakturmaguntia;
+    font-style: normal;
+    font-weight: 400;
+    color: #E6E2D6;
+    text-decoration: none;
+    padding-top: 0px;
+}
+.content h1{
+    font-family: unifrakturmaguntia;
+    font-style: normal;
+    font-weight: 400;
+    color: #E6E2D6;
+    margin-bottom: 13px;
+    margin-top: 3px;
+    font-size: 36px;
+}
+.content p{
+    color: #0B0B0B;
+    text-align: left;
+    font-size: 20px;
+	
+}
+.button{
+    color: #E3E1D9;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    margin-left: 1px;
+}
+.content{
+    color: #D6B757;
+    position: absolute;
+    top: 247px;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+    bottom: 348px;
+    margin-bottom: 387px;
+    margin-top: 23px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 24px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 700;
+    text-shadow: 0px 2px #C5AE6C;
+}
+
+
+/*----features----*/
+#features{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.feature-row{
+    width: 85%;
+    margin-top: -240px;
+    margin-right: -240px;
+    margin-left: -240px;
+    margin-bottom: -240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    padding-left: 291px;
+    padding-bottom: 0px;
+}
+.feature-col{
+    flex-basis: 25%;
+    text-align: center;
+    margin-top: -1px;
+}
+.feature-col img{
+	width: 100px;
+}
+.feature-row .feature-col p{
+    padding-bottom: 16px;
+    padding-top: 0px;
+    color: rgba(245,244,244,1.00);
+}
+.feature-col h4{
+    margin-bottom: 0px;
+    font-size: 20px;
+    padding-bottom: 8px;
+	
+}
+.container button {
+    margin-top: 89px;
+    margin-left: 221px;
+    padding-top: 75px;
+    margin-bottom: 5px;
+    margin-right: 49px;
+    padding-bottom: 0px;
+    padding-left: 140px;
+    top: 75px;
+    left: 79px;
+    right: 75px;
+}

@@ -1,0 +1,110 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/poster style 3bb11.jpg"), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 6.22%,rgba(255,0,0,1.00) 50%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-color: #622228;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 100px;
+	cursor: pointer;
+}
+.menu-icon{
+	width: 30px;
+	cursor: pointer;
+	margin-left: 40px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-size: 20px;
+    color: #F3F3F3;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+h1{
+	color: #fff;
+	font-size: 30px;
+}
+p{
+   color: #fff;
+   font-size: 20px;
+}
+button{
+    width: 180px;
+    color: #CDAF53;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    font-family: unifrakturmaguntia;
+    font-style: normal;
+    font-weight: 400;
+}
+.col h1 {
+    color: #D5B657;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.8s;
+    background-color: #F5D8D9;
+}
+.card0{
+	background-image: url("images/b9b9e70b1c196c81d16c0ee1c8ced33e--silver-centerpiece-centerpieces.jpg");
+}
+.card1{
+	background-image: url("images/H0027-L00133951.jpg");
+}
+.card2{
+	background-image: url("images/img_2409.jpg");
+}
+.card3{
+	background-image: url("images/ABDEEN PALACE BANNER4b.jpg");
+}
+.card:hover{
+	transform: translatex(-10px);
+}
